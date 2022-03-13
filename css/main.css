@@ -109,6 +109,7 @@ body{
     transform: translate(-50%, -50%);
     top:  50%;
     height: 74vh;
+    width: auto;
 }
 
 .invitation-name{
@@ -183,6 +184,10 @@ body{
     vertical-align: middle;
 }
 
+.mobileClear{
+    display: none;
+}
+
 
 .date-button2{
     display: inline-block;
@@ -223,7 +228,26 @@ body{
 
     .date-button1{
         margin-right: 0px;
+        margin-bottom: 12px;
+        margin-right: 0px;
         font-size: 14px;
+    }
+
+    .mobileClear{
+        display: block;
+    }
+
+    .date-inviteCard img{
+        width: 94vw;
+        height: auto;
+    }
+
+    .invitation-name{
+        top: 12vh;
+    }
+
+    .date-buttonContainer{
+        bottom: 4vh;
     }
 
 }

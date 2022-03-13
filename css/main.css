@@ -172,6 +172,8 @@ body{
 
     padding: 14px 16px;
 
+    cursor: pointer;
+
 }
 
 .date-button1:hover{
@@ -215,6 +217,8 @@ body{
     -webkit-font-smoothing: antialiased !important;
 
     padding: 14px 22px;
+
+    cursor: pointer;
 }
 
 .date-button2:hover{
@@ -234,6 +238,14 @@ body{
 .cta2{
     display: inline-block;
     vertical-align: middle;
+}
+
+.desktop-link{
+    display: inline-block;
+}
+
+.mobile-link{
+    display: none;
 }
 
 
@@ -278,6 +290,20 @@ body{
         bottom: 4vh;
     }
 
+    .desktop-link{
+        display: none;
+    }
+
+    .mobile-link{
+        display: inline-block;
+    }
+
+    .cta2{
+        transform: translate(0, -1px);
+    }
+    .cta1{
+        transform: translate(0, -1px);
+    }
 }
 
 

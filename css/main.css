@@ -99,7 +99,7 @@ body{
 }
 
 .date-inviteCard{
-    background-color: red;
+    background-color: red 0%;
     
 }
 
@@ -119,11 +119,12 @@ body{
     margin: auto;
     width:  100%;
     position: fixed;
-    background-color: pink;
+    background-color: pink 0%;
     text-align: center;
+    color: #C0BDFF;
 
     font-family: 'GT America';
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-size: 22px;
     line-height: 22px;
@@ -131,6 +132,10 @@ body{
 
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
+}
+
+.light{
+    color: #47439E;
 }
 
 
@@ -142,21 +147,21 @@ body{
     position: fixed;
     width: 100%;
     color: white;
-    background-color: green;
+    background-color: red 0%;
     text-align: center;
 }
 
 
 .date-button1{
     display: inline-block;
-    background-color: orange;
+    background-color: orange 0%;
     color: white;
-    border-radius: 4px;
+    border-radius: 12px;
 
     margin-right: 80px;
 
     font-family: 'GT America';
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-size: 14px;
     line-height: 20px;
@@ -167,6 +172,10 @@ body{
 
     padding: 14px 16px;
 
+}
+
+.date-button1:hover{
+    background-color: #16143D;
 }
 
 .icon1{
@@ -196,7 +205,7 @@ body{
     border-radius: 12px;
 
     font-family: 'GT America';
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-size: 14px;
     line-height: 20px;
@@ -206,6 +215,10 @@ body{
     -webkit-font-smoothing: antialiased !important;
 
     padding: 14px 22px;
+}
+
+.date-button2:hover{
+    background-color: #413D9E;
 }
 
 .icon2{
@@ -223,6 +236,21 @@ body{
     vertical-align: middle;
 }
 
+
+@media only screen and (max-width: 850px) {
+
+
+    .date-inviteCard img{
+        width: 94vw;
+        height: auto;
+    }
+
+    .date-button1{
+        margin-right: 40px;
+    }
+
+
+}
 
 @media only screen and (max-width: 500px) {
 

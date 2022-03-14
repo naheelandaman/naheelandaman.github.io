@@ -82,6 +82,11 @@
 
 /*          SECTION ----- HTML Elements          */
 
+html {
+  background-color: #0D0B35;
+}
+
+
 body{
     margin: 0;
     padding: 0;

@@ -186,11 +186,16 @@ body{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(../img/icon_calendar.svg);
+    background-image: url(../img/icon_calendar_outline.svg);
     vertical-align: middle;
 
     margin-right:  6px;
 }
+
+.date-button1:hover .icon1{
+    background-image: url(../img/icon_calendar.svg);
+}
+
 
 .cta1{
     display: inline-block;
@@ -231,10 +236,14 @@ body{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(../img/icon_message.svg);
+    background-image: url(../img/icon_message_outline.svg);
     vertical-align: middle;
     margin-right:  6px;
 
+}
+
+.date-button2:hover .icon2{
+    background-image: url(../img/icon_message.svg);
 }
 
 .cta2{
@@ -261,6 +270,10 @@ body{
 
     .date-button1{
         margin-right: 40px;
+    }
+
+    .mobile-link{
+        display: none;
     }
 
 

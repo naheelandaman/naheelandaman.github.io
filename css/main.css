@@ -303,14 +303,15 @@ a{
     .date-inviteCard img{
         width: 94vw;
         height: auto;
+        top: 47%;
     }
 
     .invitation-name{
-        top: 12vh;
+        top: 11vh;
     }
 
     .date-buttonContainer{
-        bottom: 4vh;
+        bottom: 6vh;
     }
 
     .desktop-link{

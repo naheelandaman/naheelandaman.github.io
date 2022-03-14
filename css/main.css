@@ -90,6 +90,10 @@ body{
     font-family: 'cursive'; /* As a test */
 }
 
+a{
+    text-decoration: none;
+}
+
 /*          SECTION ----- Custom: Home Page          */
 
 .date-background{
@@ -190,6 +194,8 @@ body{
     vertical-align: middle;
 
     margin-right:  6px;
+
+    opacity: 0.6;
 }
 
 .date-button1:hover .icon1{
@@ -239,6 +245,8 @@ body{
     background-image: url(../img/icon_message_outline.svg);
     vertical-align: middle;
     margin-right:  6px;
+
+    opacity: 0.6;
 
 }
 

@@ -199,9 +199,8 @@ a{
 }
 
 .date-button1:hover .icon1{
-    background-image: url(../img/icon_calendar.svg);
+    opacity: 1;
 }
-
 
 .cta1{
     display: inline-block;
@@ -242,7 +241,7 @@ a{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(../img/icon_message_outline.svg);
+    background-image: url(../img/icon_message.svg);
     vertical-align: middle;
     margin-right:  6px;
 
@@ -251,7 +250,7 @@ a{
 }
 
 .date-button2:hover .icon2{
-    background-image: url(../img/icon_message.svg);
+    opacity: 1;
 }
 
 .cta2{
